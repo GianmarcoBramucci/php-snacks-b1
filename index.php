@@ -7,8 +7,12 @@
 </head>
 <body>
     <h1>Snack</h1>
-    <ol>
-        <li><a href="./sna1/seam.php">Classifica squadre basket</a></li>
-    </ol>
+    <ul>
+        <?php
+            for($i=1;$i<=7;$i++){
+                echo "<li><a href='./sna$i/seam.php'>sna$i</a></li>";
+            } 
+        ?>
+    </ul>
 </body>
 </html>
