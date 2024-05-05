@@ -1,4 +1,3 @@
-<?php ?>
 <?php
     $partite_di_basket = [
         ["casa" => "Squadra A", "ospite" => "Squadra B", "punti_casa" => 80, "punti_ospite" => 75],
